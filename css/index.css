@@ -68,42 +68,91 @@ h1, h2, h3, h4, h5 {
 
 @media(max-width: 800px) {
     img.logo {
-        float:center;
         align-content: middle;
         position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
     }
      img.introimg {
         display: none;
     }
     
+    .menu {
+        width: 100%;    
+    }
+    
 }
 
 @media(max-width: 500px) {
-    header {
-        align: center;
+    nav a {
+        border-top: 1px solid gray;
+        border-collapse: collapse;
     }
     nav {
-        border: 1px solid gray;
+        text-align: center;
     }
+    
   .container header nav {
     display: flex;
     flex-direction: column;
-      float: center;
-      border: 1px solid gray;
+    border: 1px solid gray;
   }
 
   .container header nav a {
     margin-bottom: 20px;
   }
     
+    .intro {
+        align: center;
+    }
+    
+    img.logo {
+        align-content: middle;
+        position: relative;
+        display: block;
+        margin: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+    
     img.introimg {
         display: none;
     }
-    .top-content {
-        margin: 20px;
+    
+    .features {
         width: 100%;
+        min-width: 380px;
+        margin: 10px;
+    }
+    
+    .about {
+        width: 100%;
+        min-width: 380px;
+        margin: 10px;
+    }
+    
+    .services {
+        width: 100%;
+        min-width: 380px;
+        margin: 10px;
+    }
+    
+    .product {
+        width: 100%;
+        min-width: 380px;
+        margin: 10px;
+    }
+    
+    .vision {
+        width: 100%;
+        min-width: 380px;
+        margin: 10px;
     }
 }
+
 header {
 	/* border: 5px dashed orange; */
 	padding: 20px 20px 20px;
@@ -220,3 +269,4 @@ header p {
 footer p {
 	text-align: center;
 }
+
